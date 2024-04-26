@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196917672BD6563700779CB7 /* TSPToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917612BD6563700779CB7 /* TSPToast.m */; };
+		196917682BD6563800779CB7 /* TSPToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917632BD6563700779CB7 /* TSPToastConfig.m */; };
+		196917692BD6563800779CB7 /* TSPToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917652BD6563700779CB7 /* TSPToastView.m */; };
+		1969176C2BD6591500779CB7 /* TSPTranslateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1969176B2BD6591500779CB7 /* TSPTranslateManager.m */; };
+		1969176F2BD7484F00779CB7 /* TSPTranslatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1969176E2BD7484F00779CB7 /* TSPTranslatingView.m */; };
+		196917752BD7F62500779CB7 /* TSPOcrResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917742BD7F62500779CB7 /* TSPOcrResultView.m */; };
+		196917782BD8A35A00779CB7 /* NSObjectSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917762BD8A35A00779CB7 /* NSObjectSafe.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1969177E2BD8DA0400779CB7 /* TSPVpnGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1969177D2BD8DA0400779CB7 /* TSPVpnGuideView.m */; };
+		196917812BD8E7C500779CB7 /* TSPVpnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917802BD8E7C500779CB7 /* TSPVpnViewController.m */; };
+		196917872BD8EAA000779CB7 /* TSPVpnCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917862BD8EAA000779CB7 /* TSPVpnCardView.m */; };
+		1969178A2BD927FD00779CB7 /* TSPVpnServerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917892BD927FD00779CB7 /* TSPVpnServerListViewController.m */; };
+		1969178D2BD9288500779CB7 /* TSPVpnServerListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1969178C2BD9288500779CB7 /* TSPVpnServerListTableViewCell.m */; };
+		196917912BD92CB900779CB7 /* TSPVpnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917902BD92CB900779CB7 /* TSPVpnModel.m */; };
+		196917942BD92CE200779CB7 /* TSPVpnInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917932BD92CE200779CB7 /* TSPVpnInfoModel.m */; };
+		196917972BD9393100779CB7 /* TSPVpnResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917962BD9393100779CB7 /* TSPVpnResultViewController.m */; };
+		196917B12BD93F2800779CB7 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1969179D2BD93EC000779CB7 /* NetworkExtension.framework */; };
+		196917BA2BD93F2800779CB7 /* Translate-plus VPN.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 196917B02BD93F2800779CB7 /* Translate-plus VPN.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		196917C32BD9406D00779CB7 /* ShadowsocksConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917BF2BD9406D00779CB7 /* ShadowsocksConnectivity.m */; };
+		196917C42BD9406D00779CB7 /* Shadowsocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917C02BD9406D00779CB7 /* Shadowsocks.m */; };
+		196917C72BD9407A00779CB7 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196917C62BD9407A00779CB7 /* PacketTunnelProvider.swift */; };
+		196917CA2BD9E85500779CB7 /* TSPVpnHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 196917C92BD9E85500779CB7 /* TSPVpnHelper.m */; };
+		196917CE2BDA512C00779CB7 /* privacy policy.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 196917CC2BDA512C00779CB7 /* privacy policy.rtf */; };
+		196917CF2BDA512C00779CB7 /* terms of user.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 196917CD2BDA512C00779CB7 /* terms of user.rtf */; };
+		199765442BCFE9ED00073DA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765432BCFE9ED00073DA6 /* AppDelegate.m */; };
+		1997654A2BCFE9ED00073DA6 /* TSPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765492BCFE9ED00073DA6 /* TSPHomeViewController.m */; };
+		1997654D2BCFE9ED00073DA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1997654C2BCFE9ED00073DA6 /* Base */; };
+		1997654F2BCFE9EF00073DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1997654E2BCFE9EF00073DA6 /* Assets.xcassets */; };
+		199765522BCFE9EF00073DA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 199765512BCFE9EF00073DA6 /* Base */; };
+		199765552BCFE9EF00073DA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765542BCFE9EF00073DA6 /* main.m */; };
+		1997655F2BD0B48800073DA6 /* TSPStartUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1997655E2BD0B48800073DA6 /* TSPStartUpView.m */; };
+		199765632BD0B5A700073DA6 /* TSPAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765622BD0B5A700073DA6 /* TSPAppManager.m */; };
+		199765692BD0B7F700073DA6 /* TSPLayoutAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765682BD0B7F700073DA6 /* TSPLayoutAdapter.m */; };
+		1997656E2BD0F00100073DA6 /* UIColor+TSPHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1997656D2BD0F00100073DA6 /* UIColor+TSPHex.m */; };
+		199765722BD0FEC300073DA6 /* TSPStripEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765712BD0FEC300073DA6 /* TSPStripEventView.m */; };
+		199765772BD112B600073DA6 /* TSPTextTranslateGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765762BD112B600073DA6 /* TSPTextTranslateGuideView.m */; };
+		1997657B2BD1250400073DA6 /* TSPSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1997657A2BD1250400073DA6 /* TSPSettingViewController.m */; };
+		1997657F2BD125EB00073DA6 /* TSPCommonNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1997657E2BD125EB00073DA6 /* TSPCommonNavView.m */; };
+		199765822BD12BAC00073DA6 /* TSPCommonBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765812BD12BAC00073DA6 /* TSPCommonBaseViewController.m */; };
+		199765862BD12DB500073DA6 /* NSObject+TSPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765852BD12DB500073DA6 /* NSObject+TSPController.m */; };
+		1997658A2BD14CC500073DA6 /* TSPSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765892BD14CC500073DA6 /* TSPSettingTableViewCell.m */; };
+		1997658E2BD1509900073DA6 /* TSPSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1997658D2BD1509900073DA6 /* TSPSettingModel.m */; };
+		199765922BD20D8500073DA6 /* TSPTextTranslateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765912BD20D8500073DA6 /* TSPTextTranslateViewController.m */; };
+		199765962BD2407F00073DA6 /* TSPCommonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765952BD2407F00073DA6 /* TSPCommonButton.m */; };
+		1997659A2BD2561F00073DA6 /* TSPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765992BD2561F00073DA6 /* TSPTextView.m */; };
+		1997659D2BD2701E00073DA6 /* TSPTextTranslateResultViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1997659C2BD2701E00073DA6 /* TSPTextTranslateResultViewViewController.m */; };
+		199765A32BD512F700073DA6 /* TSPOcrTranslateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765A22BD512F700073DA6 /* TSPOcrTranslateViewController.m */; };
+		199765A62BD5137D00073DA6 /* TSPOcrTranslateButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765A52BD5137D00073DA6 /* TSPOcrTranslateButtonView.m */; };
+		199765A92BD5381700073DA6 /* TSPOcrTranslateReverseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765A82BD5381700073DA6 /* TSPOcrTranslateReverseView.m */; };
+		199765AC2BD5562600073DA6 /* TSPPrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765AB2BD5562600073DA6 /* TSPPrivacyViewController.m */; };
+		199765AF2BD5568900073DA6 /* TSPTermsServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765AE2BD5568900073DA6 /* TSPTermsServiceViewController.m */; };
+		199765B52BD5F90B00073DA6 /* TSPLanguageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765B42BD5F90B00073DA6 /* TSPLanguageListViewController.m */; };
+		199765B82BD5F91F00073DA6 /* TSPLanguageListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765B72BD5F91F00073DA6 /* TSPLanguageListTableViewCell.m */; };
+		199765BC2BD6039700073DA6 /* TSPLanguageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765BB2BD6039700073DA6 /* TSPLanguageModel.m */; };
+		199765C02BD60F7100073DA6 /* TSPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199765BF2BD60F7100073DA6 /* TSPAlertView.m */; };
+		E6A9669F52C294F99680AFD2 /* Pods_Translate_plus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9470B2AA08DD93CF682CAAB /* Pods_Translate_plus.framework */; };
+		EFF806312DB46EE01E395926 /* Pods_Translate_plus_VPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738AADC74B002ADD454DBE43 /* Pods_Translate_plus_VPN.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		196917B82BD93F2800779CB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199765372BCFE9ED00073DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196917AF2BD93F2800779CB7;
+			remoteInfo = "Translate-plus VPN";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		196917AB2BD93EC000779CB7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				196917BA2BD93F2800779CB7 /* Translate-plus VPN.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08CE07F945030106EF9C9D95 /* Pods-Translate plus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translate plus.debug.xcconfig"; path = "Target Support Files/Pods-Translate plus/Pods-Translate plus.debug.xcconfig"; sourceTree = "<group>"; };
+		196917602BD6563700779CB7 /* TSPToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPToast.h; sourceTree = "<group>"; };
+		196917612BD6563700779CB7 /* TSPToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPToast.m; sourceTree = "<group>"; };
+		196917622BD6563700779CB7 /* TSPToastConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPToastConfig.h; sourceTree = "<group>"; };
+		196917632BD6563700779CB7 /* TSPToastConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPToastConfig.m; sourceTree = "<group>"; };
+		196917642BD6563700779CB7 /* TSPToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPToastView.h; sourceTree = "<group>"; };
+		196917652BD6563700779CB7 /* TSPToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPToastView.m; sourceTree = "<group>"; };
+		1969176A2BD6591500779CB7 /* TSPTranslateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPTranslateManager.h; sourceTree = "<group>"; };
+		1969176B2BD6591500779CB7 /* TSPTranslateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPTranslateManager.m; sourceTree = "<group>"; };
+		1969176D2BD7484F00779CB7 /* TSPTranslatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPTranslatingView.h; sourceTree = "<group>"; };
+		1969176E2BD7484F00779CB7 /* TSPTranslatingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPTranslatingView.m; sourceTree = "<group>"; };
+		196917732BD7F62500779CB7 /* TSPOcrResultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPOcrResultView.h; sourceTree = "<group>"; };
+		196917742BD7F62500779CB7 /* TSPOcrResultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPOcrResultView.m; sourceTree = "<group>"; };
+		196917762BD8A35A00779CB7 /* NSObjectSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectSafe.m; sourceTree = "<group>"; };
+		196917772BD8A35A00779CB7 /* NSObjectSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectSafe.h; sourceTree = "<group>"; };
+		1969177C2BD8DA0400779CB7 /* TSPVpnGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPVpnGuideView.h; sourceTree = "<group>"; };
+		1969177D2BD8DA0400779CB7 /* TSPVpnGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPVpnGuideView.m; sourceTree = "<group>"; };
+		1969177F2BD8E7C500779CB7 /* TSPVpnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPVpnViewController.h; sourceTree = "<group>"; };
+		196917802BD8E7C500779CB7 /* TSPVpnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPVpnViewController.m; sourceTree = "<group>"; };
+		196917852BD8EAA000779CB7 /* TSPVpnCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPVpnCardView.h; sourceTree = "<group>"; };
+		196917862BD8EAA000779CB7 /* TSPVpnCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPVpnCardView.m; sourceTree = "<group>"; };
+		196917882BD927FD00779CB7 /* TSPVpnServerListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPVpnServerListViewController.h; sourceTree = "<group>"; };
+		196917892BD927FD00779CB7 /* TSPVpnServerListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPVpnServerListViewController.m; sourceTree = "<group>"; };
+		1969178B2BD9288500779CB7 /* TSPVpnServerListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPVpnServerListTableViewCell.h; sourceTree = "<group>"; };
+		1969178C2BD9288500779CB7 /* TSPVpnServerListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPVpnServerListTableViewCell.m; sourceTree = "<group>"; };
+		1969178F2BD92CB900779CB7 /* TSPVpnModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPVpnModel.h; sourceTree = "<group>"; };
+		196917902BD92CB900779CB7 /* TSPVpnModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPVpnModel.m; sourceTree = "<group>"; };
+		196917922BD92CE200779CB7 /* TSPVpnInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPVpnInfoModel.h; sourceTree = "<group>"; };
+		196917932BD92CE200779CB7 /* TSPVpnInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPVpnInfoModel.m; sourceTree = "<group>"; };
+		196917952BD9393100779CB7 /* TSPVpnResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPVpnResultViewController.h; sourceTree = "<group>"; };
+		196917962BD9393100779CB7 /* TSPVpnResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPVpnResultViewController.m; sourceTree = "<group>"; };
+		1969179D2BD93EC000779CB7 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		196917B02BD93F2800779CB7 /* Translate-plus VPN.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Translate-plus VPN.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		196917B62BD93F2800779CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196917B72BD93F2800779CB7 /* Translate_plus_VPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Translate_plus_VPN.entitlements; sourceTree = "<group>"; };
+		196917BE2BD93F5400779CB7 /* Translate plus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Translate plus.entitlements"; sourceTree = "<group>"; };
+		196917BF2BD9406D00779CB7 /* ShadowsocksConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowsocksConnectivity.m; sourceTree = "<group>"; };
+		196917C02BD9406D00779CB7 /* Shadowsocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shadowsocks.m; sourceTree = "<group>"; };
+		196917C12BD9406D00779CB7 /* Shadowsocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shadowsocks.h; sourceTree = "<group>"; };
+		196917C22BD9406D00779CB7 /* ShadowsocksConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowsocksConnectivity.h; sourceTree = "<group>"; };
+		196917C52BD9407900779CB7 /* Translate-plus VPN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Translate-plus VPN-Bridging-Header.h"; sourceTree = "<group>"; };
+		196917C62BD9407A00779CB7 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		196917C82BD9E85500779CB7 /* TSPVpnHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPVpnHelper.h; sourceTree = "<group>"; };
+		196917C92BD9E85500779CB7 /* TSPVpnHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPVpnHelper.m; sourceTree = "<group>"; };
+		196917CC2BDA512C00779CB7 /* privacy policy.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "privacy policy.rtf"; sourceTree = "<group>"; };
+		196917CD2BDA512C00779CB7 /* terms of user.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "terms of user.rtf"; sourceTree = "<group>"; };
+		1997653F2BCFE9ED00073DA6 /* Translate plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Translate plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		199765422BCFE9ED00073DA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		199765432BCFE9ED00073DA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		199765482BCFE9ED00073DA6 /* TSPHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPHomeViewController.h; sourceTree = "<group>"; };
+		199765492BCFE9ED00073DA6 /* TSPHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPHomeViewController.m; sourceTree = "<group>"; };
+		1997654C2BCFE9ED00073DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1997654E2BCFE9EF00073DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		199765512BCFE9EF00073DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		199765532BCFE9EF00073DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199765542BCFE9EF00073DA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1997655D2BD0B48800073DA6 /* TSPStartUpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPStartUpView.h; sourceTree = "<group>"; };
+		1997655E2BD0B48800073DA6 /* TSPStartUpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPStartUpView.m; sourceTree = "<group>"; };
+		199765612BD0B5A700073DA6 /* TSPAppManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPAppManager.h; sourceTree = "<group>"; };
+		199765622BD0B5A700073DA6 /* TSPAppManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPAppManager.m; sourceTree = "<group>"; };
+		199765652BD0B6C800073DA6 /* TSPPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPPrefixHeader.pch; sourceTree = "<group>"; };
+		199765672BD0B7F700073DA6 /* TSPLayoutAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPLayoutAdapter.h; sourceTree = "<group>"; };
+		199765682BD0B7F700073DA6 /* TSPLayoutAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPLayoutAdapter.m; sourceTree = "<group>"; };
+		1997656C2BD0F00100073DA6 /* UIColor+TSPHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TSPHex.h"; sourceTree = "<group>"; };
+		1997656D2BD0F00100073DA6 /* UIColor+TSPHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TSPHex.m"; sourceTree = "<group>"; };
+		199765702BD0FEC300073DA6 /* TSPStripEventView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPStripEventView.h; sourceTree = "<group>"; };
+		199765712BD0FEC300073DA6 /* TSPStripEventView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPStripEventView.m; sourceTree = "<group>"; };
+		199765752BD112B600073DA6 /* TSPTextTranslateGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPTextTranslateGuideView.h; sourceTree = "<group>"; };
+		199765762BD112B600073DA6 /* TSPTextTranslateGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPTextTranslateGuideView.m; sourceTree = "<group>"; };
+		199765792BD1250400073DA6 /* TSPSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPSettingViewController.h; sourceTree = "<group>"; };
+		1997657A2BD1250400073DA6 /* TSPSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPSettingViewController.m; sourceTree = "<group>"; };
+		1997657D2BD125EB00073DA6 /* TSPCommonNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPCommonNavView.h; sourceTree = "<group>"; };
+		1997657E2BD125EB00073DA6 /* TSPCommonNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPCommonNavView.m; sourceTree = "<group>"; };
+		199765802BD12BAC00073DA6 /* TSPCommonBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPCommonBaseViewController.h; sourceTree = "<group>"; };
+		199765812BD12BAC00073DA6 /* TSPCommonBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPCommonBaseViewController.m; sourceTree = "<group>"; };
+		199765842BD12DB500073DA6 /* NSObject+TSPController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TSPController.h"; sourceTree = "<group>"; };
+		199765852BD12DB500073DA6 /* NSObject+TSPController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TSPController.m"; sourceTree = "<group>"; };
+		199765882BD14CC500073DA6 /* TSPSettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPSettingTableViewCell.h; sourceTree = "<group>"; };
+		199765892BD14CC500073DA6 /* TSPSettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPSettingTableViewCell.m; sourceTree = "<group>"; };
+		1997658C2BD1509900073DA6 /* TSPSettingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPSettingModel.h; sourceTree = "<group>"; };
+		1997658D2BD1509900073DA6 /* TSPSettingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPSettingModel.m; sourceTree = "<group>"; };
+		199765902BD20D8500073DA6 /* TSPTextTranslateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPTextTranslateViewController.h; sourceTree = "<group>"; };
+		199765912BD20D8500073DA6 /* TSPTextTranslateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPTextTranslateViewController.m; sourceTree = "<group>"; };
+		199765942BD2407F00073DA6 /* TSPCommonButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPCommonButton.h; sourceTree = "<group>"; };
+		199765952BD2407F00073DA6 /* TSPCommonButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPCommonButton.m; sourceTree = "<group>"; };
+		199765982BD2561F00073DA6 /* TSPTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPTextView.h; sourceTree = "<group>"; };
+		199765992BD2561F00073DA6 /* TSPTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPTextView.m; sourceTree = "<group>"; };
+		1997659B2BD2701E00073DA6 /* TSPTextTranslateResultViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPTextTranslateResultViewViewController.h; sourceTree = "<group>"; };
+		1997659C2BD2701E00073DA6 /* TSPTextTranslateResultViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPTextTranslateResultViewViewController.m; sourceTree = "<group>"; };
+		199765A12BD512F700073DA6 /* TSPOcrTranslateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPOcrTranslateViewController.h; sourceTree = "<group>"; };
+		199765A22BD512F700073DA6 /* TSPOcrTranslateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPOcrTranslateViewController.m; sourceTree = "<group>"; };
+		199765A42BD5137D00073DA6 /* TSPOcrTranslateButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPOcrTranslateButtonView.h; sourceTree = "<group>"; };
+		199765A52BD5137D00073DA6 /* TSPOcrTranslateButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPOcrTranslateButtonView.m; sourceTree = "<group>"; };
+		199765A72BD5381700073DA6 /* TSPOcrTranslateReverseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPOcrTranslateReverseView.h; sourceTree = "<group>"; };
+		199765A82BD5381700073DA6 /* TSPOcrTranslateReverseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPOcrTranslateReverseView.m; sourceTree = "<group>"; };
+		199765AA2BD5562600073DA6 /* TSPPrivacyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPPrivacyViewController.h; sourceTree = "<group>"; };
+		199765AB2BD5562600073DA6 /* TSPPrivacyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPPrivacyViewController.m; sourceTree = "<group>"; };
+		199765AD2BD5568900073DA6 /* TSPTermsServiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPTermsServiceViewController.h; sourceTree = "<group>"; };
+		199765AE2BD5568900073DA6 /* TSPTermsServiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPTermsServiceViewController.m; sourceTree = "<group>"; };
+		199765B32BD5F90B00073DA6 /* TSPLanguageListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPLanguageListViewController.h; sourceTree = "<group>"; };
+		199765B42BD5F90B00073DA6 /* TSPLanguageListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPLanguageListViewController.m; sourceTree = "<group>"; };
+		199765B62BD5F91F00073DA6 /* TSPLanguageListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPLanguageListTableViewCell.h; sourceTree = "<group>"; };
+		199765B72BD5F91F00073DA6 /* TSPLanguageListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPLanguageListTableViewCell.m; sourceTree = "<group>"; };
+		199765BA2BD6039700073DA6 /* TSPLanguageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPLanguageModel.h; sourceTree = "<group>"; };
+		199765BB2BD6039700073DA6 /* TSPLanguageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPLanguageModel.m; sourceTree = "<group>"; };
+		199765BE2BD60F7100073DA6 /* TSPAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPAlertView.h; sourceTree = "<group>"; };
+		199765BF2BD60F7100073DA6 /* TSPAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPAlertView.m; sourceTree = "<group>"; };
+		4D3091ACEE030CE311F7C08A /* Pods-Translate-plus VPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translate-plus VPN.debug.xcconfig"; path = "Target Support Files/Pods-Translate-plus VPN/Pods-Translate-plus VPN.debug.xcconfig"; sourceTree = "<group>"; };
+		6CA5010EE573BD0CD7FA8247 /* Pods-Translate plus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translate plus.release.xcconfig"; path = "Target Support Files/Pods-Translate plus/Pods-Translate plus.release.xcconfig"; sourceTree = "<group>"; };
+		738AADC74B002ADD454DBE43 /* Pods_Translate_plus_VPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Translate_plus_VPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3B50503BBB74C27712196E /* Pods-Translate-plus VPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translate-plus VPN.release.xcconfig"; path = "Target Support Files/Pods-Translate-plus VPN/Pods-Translate-plus VPN.release.xcconfig"; sourceTree = "<group>"; };
+		E9470B2AA08DD93CF682CAAB /* Pods_Translate_plus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Translate_plus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		196917AD2BD93F2800779CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196917B12BD93F2800779CB7 /* NetworkExtension.framework in Frameworks */,
+				EFF806312DB46EE01E395926 /* Pods_Translate_plus_VPN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1997653C2BCFE9ED00073DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A9669F52C294F99680AFD2 /* Pods_Translate_plus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196917662BD6563700779CB7 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				196917602BD6563700779CB7 /* TSPToast.h */,
+				196917612BD6563700779CB7 /* TSPToast.m */,
+				196917622BD6563700779CB7 /* TSPToastConfig.h */,
+				196917632BD6563700779CB7 /* TSPToastConfig.m */,
+				196917642BD6563700779CB7 /* TSPToastView.h */,
+				196917652BD6563700779CB7 /* TSPToastView.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		196917792BD8D9C000779CB7 /* Vpn */ = {
+			isa = PBXGroup;
+			children = (
+				1969178E2BD92CAD00779CB7 /* Model */,
+				1969177B2BD8D9EF00779CB7 /* View */,
+				1969177A2BD8D9E100779CB7 /* ViewController */,
+				196917C82BD9E85500779CB7 /* TSPVpnHelper.h */,
+				196917C92BD9E85500779CB7 /* TSPVpnHelper.m */,
+			);
+			path = Vpn;
+			sourceTree = "<group>";
+		};
+		1969177A2BD8D9E100779CB7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1969177F2BD8E7C500779CB7 /* TSPVpnViewController.h */,
+				196917802BD8E7C500779CB7 /* TSPVpnViewController.m */,
+				196917882BD927FD00779CB7 /* TSPVpnServerListViewController.h */,
+				196917892BD927FD00779CB7 /* TSPVpnServerListViewController.m */,
+				196917952BD9393100779CB7 /* TSPVpnResultViewController.h */,
+				196917962BD9393100779CB7 /* TSPVpnResultViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1969177B2BD8D9EF00779CB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1969177C2BD8DA0400779CB7 /* TSPVpnGuideView.h */,
+				1969177D2BD8DA0400779CB7 /* TSPVpnGuideView.m */,
+				196917852BD8EAA000779CB7 /* TSPVpnCardView.h */,
+				196917862BD8EAA000779CB7 /* TSPVpnCardView.m */,
+				1969178B2BD9288500779CB7 /* TSPVpnServerListTableViewCell.h */,
+				1969178C2BD9288500779CB7 /* TSPVpnServerListTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1969178E2BD92CAD00779CB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1969178F2BD92CB900779CB7 /* TSPVpnModel.h */,
+				196917902BD92CB900779CB7 /* TSPVpnModel.m */,
+				196917922BD92CE200779CB7 /* TSPVpnInfoModel.h */,
+				196917932BD92CE200779CB7 /* TSPVpnInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		196917B22BD93F2800779CB7 /* Translate-plus VPN */ = {
+			isa = PBXGroup;
+			children = (
+				196917C62BD9407A00779CB7 /* PacketTunnelProvider.swift */,
+				196917C12BD9406D00779CB7 /* Shadowsocks.h */,
+				196917C02BD9406D00779CB7 /* Shadowsocks.m */,
+				196917C22BD9406D00779CB7 /* ShadowsocksConnectivity.h */,
+				196917BF2BD9406D00779CB7 /* ShadowsocksConnectivity.m */,
+				196917B62BD93F2800779CB7 /* Info.plist */,
+				196917B72BD93F2800779CB7 /* Translate_plus_VPN.entitlements */,
+				196917C52BD9407900779CB7 /* Translate-plus VPN-Bridging-Header.h */,
+			);
+			path = "Translate-plus VPN";
+			sourceTree = "<group>";
+		};
+		196917CB2BDA512100779CB7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				196917CC2BDA512C00779CB7 /* privacy policy.rtf */,
+				196917CD2BDA512C00779CB7 /* terms of user.rtf */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		199765362BCFE9ED00073DA6 = {
+			isa = PBXGroup;
+			children = (
+				199765412BCFE9ED00073DA6 /* Translate plus */,
+				196917B22BD93F2800779CB7 /* Translate-plus VPN */,
+				199765402BCFE9ED00073DA6 /* Products */,
+				3066728102CFC4B59A8AB7FA /* Pods */,
+				DB6431D179EF735D622407A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		199765402BCFE9ED00073DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1997653F2BCFE9ED00073DA6 /* Translate plus.app */,
+				196917B02BD93F2800779CB7 /* Translate-plus VPN.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199765412BCFE9ED00073DA6 /* Translate plus */ = {
+			isa = PBXGroup;
+			children = (
+				196917CB2BDA512100779CB7 /* Source */,
+				196917BE2BD93F5400779CB7 /* Translate plus.entitlements */,
+				196917792BD8D9C000779CB7 /* Vpn */,
+				199765B02BD5F8CD00073DA6 /* Language */,
+				1997659E2BD5122600073DA6 /* OcrTranslate */,
+				1997657C2BD125CE00073DA6 /* Common */,
+				199765782BD124F200073DA6 /* Setting */,
+				199765732BD1128600073DA6 /* TextTranslate */,
+				199765662BD0B7E000073DA6 /* Util */,
+				199765642BD0B6BD00073DA6 /* AppPch */,
+				199765602BD0B58600073DA6 /* AppManager */,
+				1997655C2BD0B46800073DA6 /* StartUp */,
+				1997655B2BD0B28900073DA6 /* Home */,
+				199765422BCFE9ED00073DA6 /* AppDelegate.h */,
+				199765432BCFE9ED00073DA6 /* AppDelegate.m */,
+				1997654B2BCFE9ED00073DA6 /* Main.storyboard */,
+				1997654E2BCFE9EF00073DA6 /* Assets.xcassets */,
+				199765502BCFE9EF00073DA6 /* LaunchScreen.storyboard */,
+				199765532BCFE9EF00073DA6 /* Info.plist */,
+				199765542BCFE9EF00073DA6 /* main.m */,
+			);
+			path = "Translate plus";
+			sourceTree = "<group>";
+		};
+		1997655B2BD0B28900073DA6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1997656F2BD0FE5E00073DA6 /* View */,
+				199765482BCFE9ED00073DA6 /* TSPHomeViewController.h */,
+				199765492BCFE9ED00073DA6 /* TSPHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1997655C2BD0B46800073DA6 /* StartUp */ = {
+			isa = PBXGroup;
+			children = (
+				1997656A2BD0EDFB00073DA6 /* View */,
+			);
+			path = StartUp;
+			sourceTree = "<group>";
+		};
+		199765602BD0B58600073DA6 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				199765612BD0B5A700073DA6 /* TSPAppManager.h */,
+				199765622BD0B5A700073DA6 /* TSPAppManager.m */,
+			);
+			path = AppManager;
+			sourceTree = "<group>";
+		};
+		199765642BD0B6BD00073DA6 /* AppPch */ = {
+			isa = PBXGroup;
+			children = (
+				199765652BD0B6C800073DA6 /* TSPPrefixHeader.pch */,
+			);
+			path = AppPch;
+			sourceTree = "<group>";
+		};
+		199765662BD0B7E000073DA6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				196917772BD8A35A00779CB7 /* NSObjectSafe.h */,
+				196917762BD8A35A00779CB7 /* NSObjectSafe.m */,
+				196917662BD6563700779CB7 /* Toast */,
+				199765BD2BD60F4B00073DA6 /* Alert */,
+				199765972BD254C300073DA6 /* TextView */,
+				199765832BD12D8900073DA6 /* Viewcontroller */,
+				1997656B2BD0EFDE00073DA6 /* Layout&color */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1997656A2BD0EDFB00073DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1997655D2BD0B48800073DA6 /* TSPStartUpView.h */,
+				1997655E2BD0B48800073DA6 /* TSPStartUpView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1997656B2BD0EFDE00073DA6 /* Layout&color */ = {
+			isa = PBXGroup;
+			children = (
+				199765672BD0B7F700073DA6 /* TSPLayoutAdapter.h */,
+				199765682BD0B7F700073DA6 /* TSPLayoutAdapter.m */,
+				1997656C2BD0F00100073DA6 /* UIColor+TSPHex.h */,
+				1997656D2BD0F00100073DA6 /* UIColor+TSPHex.m */,
+			);
+			path = "Layout&color";
+			sourceTree = "<group>";
+		};
+		1997656F2BD0FE5E00073DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				199765702BD0FEC300073DA6 /* TSPStripEventView.h */,
+				199765712BD0FEC300073DA6 /* TSPStripEventView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		199765732BD1128600073DA6 /* TextTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				1997658F2BD20CDD00073DA6 /* ViewController */,
+				199765742BD1129B00073DA6 /* VIew */,
+			);
+			path = TextTranslate;
+			sourceTree = "<group>";
+		};
+		199765742BD1129B00073DA6 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				199765752BD112B600073DA6 /* TSPTextTranslateGuideView.h */,
+				199765762BD112B600073DA6 /* TSPTextTranslateGuideView.m */,
+				199765942BD2407F00073DA6 /* TSPCommonButton.h */,
+				199765952BD2407F00073DA6 /* TSPCommonButton.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		199765782BD124F200073DA6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				1997658B2BD1508F00073DA6 /* Model */,
+				199765872BD14CAB00073DA6 /* View */,
+				199765792BD1250400073DA6 /* TSPSettingViewController.h */,
+				1997657A2BD1250400073DA6 /* TSPSettingViewController.m */,
+				199765AA2BD5562600073DA6 /* TSPPrivacyViewController.h */,
+				199765AB2BD5562600073DA6 /* TSPPrivacyViewController.m */,
+				199765AD2BD5568900073DA6 /* TSPTermsServiceViewController.h */,
+				199765AE2BD5568900073DA6 /* TSPTermsServiceViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		1997657C2BD125CE00073DA6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1997657D2BD125EB00073DA6 /* TSPCommonNavView.h */,
+				1997657E2BD125EB00073DA6 /* TSPCommonNavView.m */,
+				199765802BD12BAC00073DA6 /* TSPCommonBaseViewController.h */,
+				199765812BD12BAC00073DA6 /* TSPCommonBaseViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		199765832BD12D8900073DA6 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				199765842BD12DB500073DA6 /* NSObject+TSPController.h */,
+				199765852BD12DB500073DA6 /* NSObject+TSPController.m */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		199765872BD14CAB00073DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				199765882BD14CC500073DA6 /* TSPSettingTableViewCell.h */,
+				199765892BD14CC500073DA6 /* TSPSettingTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1997658B2BD1508F00073DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1997658C2BD1509900073DA6 /* TSPSettingModel.h */,
+				1997658D2BD1509900073DA6 /* TSPSettingModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1997658F2BD20CDD00073DA6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				199765902BD20D8500073DA6 /* TSPTextTranslateViewController.h */,
+				199765912BD20D8500073DA6 /* TSPTextTranslateViewController.m */,
+				1997659B2BD2701E00073DA6 /* TSPTextTranslateResultViewViewController.h */,
+				1997659C2BD2701E00073DA6 /* TSPTextTranslateResultViewViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		199765972BD254C300073DA6 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				199765982BD2561F00073DA6 /* TSPTextView.h */,
+				199765992BD2561F00073DA6 /* TSPTextView.m */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		1997659E2BD5122600073DA6 /* OcrTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				199765A02BD5124E00073DA6 /* View */,
+				1997659F2BD5123C00073DA6 /* ViewController */,
+			);
+			path = OcrTranslate;
+			sourceTree = "<group>";
+		};
+		1997659F2BD5123C00073DA6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				199765A12BD512F700073DA6 /* TSPOcrTranslateViewController.h */,
+				199765A22BD512F700073DA6 /* TSPOcrTranslateViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		199765A02BD5124E00073DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				196917732BD7F62500779CB7 /* TSPOcrResultView.h */,
+				196917742BD7F62500779CB7 /* TSPOcrResultView.m */,
+				199765A42BD5137D00073DA6 /* TSPOcrTranslateButtonView.h */,
+				199765A52BD5137D00073DA6 /* TSPOcrTranslateButtonView.m */,
+				199765A72BD5381700073DA6 /* TSPOcrTranslateReverseView.h */,
+				199765A82BD5381700073DA6 /* TSPOcrTranslateReverseView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		199765B02BD5F8CD00073DA6 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				199765B92BD6038100073DA6 /* Model */,
+				199765B22BD5F8F400073DA6 /* View */,
+				199765B12BD5F8EA00073DA6 /* ViewController */,
+				1969176A2BD6591500779CB7 /* TSPTranslateManager.h */,
+				1969176B2BD6591500779CB7 /* TSPTranslateManager.m */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		199765B12BD5F8EA00073DA6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				199765B32BD5F90B00073DA6 /* TSPLanguageListViewController.h */,
+				199765B42BD5F90B00073DA6 /* TSPLanguageListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		199765B22BD5F8F400073DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				199765B62BD5F91F00073DA6 /* TSPLanguageListTableViewCell.h */,
+				199765B72BD5F91F00073DA6 /* TSPLanguageListTableViewCell.m */,
+				1969176D2BD7484F00779CB7 /* TSPTranslatingView.h */,
+				1969176E2BD7484F00779CB7 /* TSPTranslatingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		199765B92BD6038100073DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				199765BA2BD6039700073DA6 /* TSPLanguageModel.h */,
+				199765BB2BD6039700073DA6 /* TSPLanguageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		199765BD2BD60F4B00073DA6 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				199765BE2BD60F7100073DA6 /* TSPAlertView.h */,
+				199765BF2BD60F7100073DA6 /* TSPAlertView.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		3066728102CFC4B59A8AB7FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08CE07F945030106EF9C9D95 /* Pods-Translate plus.debug.xcconfig */,
+				6CA5010EE573BD0CD7FA8247 /* Pods-Translate plus.release.xcconfig */,
+				4D3091ACEE030CE311F7C08A /* Pods-Translate-plus VPN.debug.xcconfig */,
+				AE3B50503BBB74C27712196E /* Pods-Translate-plus VPN.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB6431D179EF735D622407A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9470B2AA08DD93CF682CAAB /* Pods_Translate_plus.framework */,
+				1969179D2BD93EC000779CB7 /* NetworkExtension.framework */,
+				738AADC74B002ADD454DBE43 /* Pods_Translate_plus_VPN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		196917AF2BD93F2800779CB7 /* Translate-plus VPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196917BB2BD93F2800779CB7 /* Build configuration list for PBXNativeTarget "Translate-plus VPN" */;
+			buildPhases = (
+				C0D8DC58A31EBF2237636B7F /* [CP] Check Pods Manifest.lock */,
+				196917AC2BD93F2800779CB7 /* Sources */,
+				196917AD2BD93F2800779CB7 /* Frameworks */,
+				196917AE2BD93F2800779CB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Translate-plus VPN";
+			productName = "Translate-plus VPN";
+			productReference = 196917B02BD93F2800779CB7 /* Translate-plus VPN.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1997653E2BCFE9ED00073DA6 /* Translate plus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199765582BCFE9EF00073DA6 /* Build configuration list for PBXNativeTarget "Translate plus" */;
+			buildPhases = (
+				668DB8F4106DE44BF488B9E4 /* [CP] Check Pods Manifest.lock */,
+				1997653B2BCFE9ED00073DA6 /* Sources */,
+				1997653C2BCFE9ED00073DA6 /* Frameworks */,
+				1997653D2BCFE9ED00073DA6 /* Resources */,
+				06C84946BE1366D9873B6EFE /* [CP] Embed Pods Frameworks */,
+				ABEDF3B507464B3E573AE529 /* [CP] Copy Pods Resources */,
+				196917AB2BD93EC000779CB7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196917B92BD93F2800779CB7 /* PBXTargetDependency */,
+			);
+			name = "Translate plus";
+			productName = "Translate plus";
+			productReference = 1997653F2BCFE9ED00073DA6 /* Translate plus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199765372BCFE9ED00073DA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					196917AF2BD93F2800779CB7 = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+					1997653E2BCFE9ED00073DA6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1997653A2BCFE9ED00073DA6 /* Build configuration list for PBXProject "Translate plus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 199765362BCFE9ED00073DA6;
+			productRefGroup = 199765402BCFE9ED00073DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1997653E2BCFE9ED00073DA6 /* Translate plus */,
+				196917AF2BD93F2800779CB7 /* Translate-plus VPN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		196917AE2BD93F2800779CB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1997653D2BCFE9ED00073DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1997654F2BCFE9EF00073DA6 /* Assets.xcassets in Resources */,
+				199765522BCFE9EF00073DA6 /* Base in Resources */,
+				196917CF2BDA512C00779CB7 /* terms of user.rtf in Resources */,
+				196917CE2BDA512C00779CB7 /* privacy policy.rtf in Resources */,
+				1997654D2BCFE9ED00073DA6 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06C84946BE1366D9873B6EFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Translate plus/Pods-Translate plus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Translate plus/Pods-Translate plus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Translate plus/Pods-Translate plus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		668DB8F4106DE44BF488B9E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Translate plus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABEDF3B507464B3E573AE529 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Translate plus/Pods-Translate plus-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Translate plus/Pods-Translate plus-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Translate plus/Pods-Translate plus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D8DC58A31EBF2237636B7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Translate-plus VPN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196917AC2BD93F2800779CB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196917C32BD9406D00779CB7 /* ShadowsocksConnectivity.m in Sources */,
+				196917C42BD9406D00779CB7 /* Shadowsocks.m in Sources */,
+				196917C72BD9407A00779CB7 /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1997653B2BCFE9ED00073DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1997658E2BD1509900073DA6 /* TSPSettingModel.m in Sources */,
+				1997655F2BD0B48800073DA6 /* TSPStartUpView.m in Sources */,
+				1969178D2BD9288500779CB7 /* TSPVpnServerListTableViewCell.m in Sources */,
+				199765BC2BD6039700073DA6 /* TSPLanguageModel.m in Sources */,
+				1997656E2BD0F00100073DA6 /* UIColor+TSPHex.m in Sources */,
+				196917752BD7F62500779CB7 /* TSPOcrResultView.m in Sources */,
+				196917872BD8EAA000779CB7 /* TSPVpnCardView.m in Sources */,
+				1997654A2BCFE9ED00073DA6 /* TSPHomeViewController.m in Sources */,
+				1969176C2BD6591500779CB7 /* TSPTranslateManager.m in Sources */,
+				1969178A2BD927FD00779CB7 /* TSPVpnServerListViewController.m in Sources */,
+				1997659D2BD2701E00073DA6 /* TSPTextTranslateResultViewViewController.m in Sources */,
+				1969177E2BD8DA0400779CB7 /* TSPVpnGuideView.m in Sources */,
+				196917672BD6563700779CB7 /* TSPToast.m in Sources */,
+				196917942BD92CE200779CB7 /* TSPVpnInfoModel.m in Sources */,
+				199765442BCFE9ED00073DA6 /* AppDelegate.m in Sources */,
+				1997657F2BD125EB00073DA6 /* TSPCommonNavView.m in Sources */,
+				199765A92BD5381700073DA6 /* TSPOcrTranslateReverseView.m in Sources */,
+				196917782BD8A35A00779CB7 /* NSObjectSafe.m in Sources */,
+				199765C02BD60F7100073DA6 /* TSPAlertView.m in Sources */,
+				196917682BD6563800779CB7 /* TSPToastConfig.m in Sources */,
+				1969176F2BD7484F00779CB7 /* TSPTranslatingView.m in Sources */,
+				196917912BD92CB900779CB7 /* TSPVpnModel.m in Sources */,
+				196917692BD6563800779CB7 /* TSPToastView.m in Sources */,
+				199765962BD2407F00073DA6 /* TSPCommonButton.m in Sources */,
+				196917972BD9393100779CB7 /* TSPVpnResultViewController.m in Sources */,
+				199765722BD0FEC300073DA6 /* TSPStripEventView.m in Sources */,
+				1997658A2BD14CC500073DA6 /* TSPSettingTableViewCell.m in Sources */,
+				199765B82BD5F91F00073DA6 /* TSPLanguageListTableViewCell.m in Sources */,
+				199765922BD20D8500073DA6 /* TSPTextTranslateViewController.m in Sources */,
+				199765B52BD5F90B00073DA6 /* TSPLanguageListViewController.m in Sources */,
+				199765AF2BD5568900073DA6 /* TSPTermsServiceViewController.m in Sources */,
+				199765AC2BD5562600073DA6 /* TSPPrivacyViewController.m in Sources */,
+				199765822BD12BAC00073DA6 /* TSPCommonBaseViewController.m in Sources */,
+				199765772BD112B600073DA6 /* TSPTextTranslateGuideView.m in Sources */,
+				199765862BD12DB500073DA6 /* NSObject+TSPController.m in Sources */,
+				199765A32BD512F700073DA6 /* TSPOcrTranslateViewController.m in Sources */,
+				196917CA2BD9E85500779CB7 /* TSPVpnHelper.m in Sources */,
+				1997659A2BD2561F00073DA6 /* TSPTextView.m in Sources */,
+				199765692BD0B7F700073DA6 /* TSPLayoutAdapter.m in Sources */,
+				1997657B2BD1250400073DA6 /* TSPSettingViewController.m in Sources */,
+				199765A62BD5137D00073DA6 /* TSPOcrTranslateButtonView.m in Sources */,
+				196917812BD8E7C500779CB7 /* TSPVpnViewController.m in Sources */,
+				199765552BCFE9EF00073DA6 /* main.m in Sources */,
+				199765632BD0B5A700073DA6 /* TSPAppManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		196917B92BD93F2800779CB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196917AF2BD93F2800779CB7 /* Translate-plus VPN */;
+			targetProxy = 196917B82BD93F2800779CB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1997654B2BCFE9ED00073DA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1997654C2BCFE9ED00073DA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		199765502BCFE9EF00073DA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199765512BCFE9EF00073DA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		196917BC2BD93F2800779CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D3091ACEE030CE311F7C08A /* Pods-Translate-plus VPN.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Translate-plus VPN/Translate_plus_VPN.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67D9SM7JC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Translate-plus VPN/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Translate-plus VPN";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.shenyi.com.Translateplus.proxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Translate-plus VPN/Translate-plus VPN-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196917BD2BD93F2800779CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3B50503BBB74C27712196E /* Pods-Translate-plus VPN.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Translate-plus VPN/Translate_plus_VPN.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67D9SM7JC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Translate-plus VPN/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Translate-plus VPN";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.shenyi.com.Translateplus.proxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Translate-plus VPN/Translate-plus VPN-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		199765562BCFE9EF00073DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		199765572BCFE9EF00073DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199765592BCFE9EF00073DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08CE07F945030106EF9C9D95 /* Pods-Translate plus.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Translate plus/Translate plus.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67D9SM7JC3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Translate plus/AppPch/TSPPrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Translate plus/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera permissions to recognize text.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please allow access to your activity tracking to provide personalized push services and reduce interference caused by irrelevant services.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.shenyi.com.Translateplus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1997655A2BCFE9EF00073DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA5010EE573BD0CD7FA8247 /* Pods-Translate plus.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Translate plus/Translate plus.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67D9SM7JC3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Translate plus/AppPch/TSPPrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Translate plus/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera permissions to recognize text.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please allow access to your activity tracking to provide personalized push services and reduce interference caused by irrelevant services.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.shenyi.com.Translateplus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		196917BB2BD93F2800779CB7 /* Build configuration list for PBXNativeTarget "Translate-plus VPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196917BC2BD93F2800779CB7 /* Debug */,
+				196917BD2BD93F2800779CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1997653A2BCFE9ED00073DA6 /* Build configuration list for PBXProject "Translate plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199765562BCFE9EF00073DA6 /* Debug */,
+				199765572BCFE9EF00073DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199765582BCFE9EF00073DA6 /* Build configuration list for PBXNativeTarget "Translate plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199765592BCFE9EF00073DA6 /* Debug */,
+				1997655A2BCFE9EF00073DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199765372BCFE9ED00073DA6 /* Project object */;
+}

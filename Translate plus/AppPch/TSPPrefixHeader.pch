@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  Translate plus
+//
+//  Created by shen on 2024/4/18.
+//
+
+#ifndef TSPPrefixHeader_pch
+#define TSPPrefixHeader_pch
+
+#import "TSPAppManager.h"
+#import "TSPLayoutAdapter.h"
+#import "UIColor+TSPHex.h"
+#import <Masonry/Masonry.h>
+#import "TSPStartUpView.h"
+#import "NSObject+TSPController.h"
+#import "TSPAlertView.h"
+#import "TSPLanguageModel.h"
+#import "TSPTranslateManager.h"
+#import "TSPToast.h"
+#import "TSPTranslatingView.h"
+#import "TSPVpnModel.h"
+#import "TSPVpnHelper.h"
+
+static NSString * const kReconnectionVpnNoti = @"kReconnectionVpnNoti";
+
+
+#endif /* PrefixHeader_pch */
