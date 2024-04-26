@@ -71,8 +71,8 @@
     [self.titleImgView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.iconImgView.mas_bottom).offset(TSPAdapterHeight(122));
         make.centerX.mas_equalTo(self.mas_centerX);
-        make.width.mas_equalTo(TSPAdapterHeight(254));
-        make.height.mas_equalTo(TSPAdapterHeight(24));
+        make.width.mas_equalTo(TSPAdapterHeight(221));
+        make.height.mas_equalTo(TSPAdapterHeight(20));
     }];
     
     [self.progressView mas_makeConstraints:^(MASConstraintMaker *make) {

@@ -18,6 +18,36 @@
             endingLineNumber = "298"
             landmarkName = "-clickEvent"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A84004E4-D001-4C10-B133-18B9FDCD6F0C - c5a7c088b38fbdf4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[TSPVpnCardView clickEvent]_block_invoke"
+                  moduleName = "Translate plus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yi/Documents/DevProject/Translate%20plus/Translate%20plus/Vpn/View/TSPVpnCardView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "298"
+                  endingLineNumber = "298">
+               </Location>
+               <Location
+                  uuid = "A84004E4-D001-4C10-B133-18B9FDCD6F0C - 5abf0b64835d252c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[TSPVpnCardView clickEvent]_block_invoke"
+                  moduleName = "Flux Trans &amp; Orc Bingo&#xff01;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yi/Documents/DevProject/Translate%20plus/Translate%20plus/Vpn/View/TSPVpnCardView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "298"
+                  endingLineNumber = "298">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -34,6 +64,36 @@
             endingLineNumber = "318"
             landmarkName = "-clickHandle"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F4D55BE7-82B8-4F02-A578-2DA6012C19CA - c22a257c6c30a23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TSPVpnCardView clickHandle]"
+                  moduleName = "Translate plus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yi/Documents/DevProject/Translate%20plus/Translate%20plus/Vpn/View/TSPVpnCardView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "318"
+                  endingLineNumber = "318">
+               </Location>
+               <Location
+                  uuid = "F4D55BE7-82B8-4F02-A578-2DA6012C19CA - 933a69bbf61192fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TSPVpnCardView clickHandle]"
+                  moduleName = "Flux Trans &amp; Orc Bingo&#xff01;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yi/Documents/DevProject/Translate%20plus/Translate%20plus/Vpn/View/TSPVpnCardView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "318"
+                  endingLineNumber = "318">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

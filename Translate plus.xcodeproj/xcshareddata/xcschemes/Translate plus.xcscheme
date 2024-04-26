@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1997653E2BCFE9ED00073DA6"
-               BuildableName = "Translate plus.app"
-               BlueprintName = "Translate plus"
+               BuildableName = "Flux Trans &amp; Orc Bingo&#xff01;.app"
+               BlueprintName = "Flux Trans &amp; Orc Bingo&#xff01;"
                ReferencedContainer = "container:Translate plus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1997653E2BCFE9ED00073DA6"
-            BuildableName = "Translate plus.app"
-            BlueprintName = "Translate plus"
+            BuildableName = "Flux Trans &amp; Orc Bingo&#xff01;.app"
+            BlueprintName = "Flux Trans &amp; Orc Bingo&#xff01;"
             ReferencedContainer = "container:Translate plus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1997653E2BCFE9ED00073DA6"
-            BuildableName = "Translate plus.app"
-            BlueprintName = "Translate plus"
+            BuildableName = "Flux Trans &amp; Orc Bingo&#xff01;.app"
+            BlueprintName = "Flux Trans &amp; Orc Bingo&#xff01;"
             ReferencedContainer = "container:Translate plus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

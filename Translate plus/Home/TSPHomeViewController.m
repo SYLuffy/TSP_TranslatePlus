@@ -52,15 +52,15 @@
     [self.titleImgView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.mas_equalTo(self.view.mas_centerX);
         make.top.mas_equalTo(self.view.mas_top).offset(TSPAdapterHeight(78));
-        make.width.mas_equalTo(TSPAdapterHeight(268));
-        make.height.mas_equalTo(TSPAdapterHeight(22));
+        make.width.mas_equalTo(TSPAdapterHeight(221));
+        make.height.mas_equalTo(TSPAdapterHeight(20));
     }];
     
     [self.textButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.mas_equalTo(self.view.mas_centerX).offset(TSPAdapterHeight(-8));
         make.width.mas_equalTo(TSPAdapterHeight(152));
         make.height.mas_equalTo(TSPAdapterHeight(184));
-        make.top.mas_equalTo(self.titleImgView.mas_bottom).offset(TSPAdapterHeight(24));
+        make.top.mas_equalTo(self.titleImgView.mas_bottom).offset(TSPAdapterHeight(26));
     }];
     
     [self.ocrButton mas_makeConstraints:^(MASConstraintMaker *make) {

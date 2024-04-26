@@ -136,7 +136,7 @@
 		196917C92BD9E85500779CB7 /* TSPVpnHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPVpnHelper.m; sourceTree = "<group>"; };
 		196917CC2BDA512C00779CB7 /* privacy policy.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "privacy policy.rtf"; sourceTree = "<group>"; };
 		196917CD2BDA512C00779CB7 /* terms of user.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "terms of user.rtf"; sourceTree = "<group>"; };
-		1997653F2BCFE9ED00073DA6 /* Translate plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Translate plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1997653F2BCFE9ED00073DA6 /* Flux Trans & Orc Bingo！.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flux Trans & Orc Bingo！.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		199765422BCFE9ED00073DA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		199765432BCFE9ED00073DA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		199765482BCFE9ED00073DA6 /* TSPHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPHomeViewController.h; sourceTree = "<group>"; };
@@ -325,7 +325,7 @@
 		199765402BCFE9ED00073DA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1997653F2BCFE9ED00073DA6 /* Translate plus.app */,
+				1997653F2BCFE9ED00073DA6 /* Flux Trans & Orc Bingo！.app */,
 				196917B02BD93F2800779CB7 /* Translate-plus VPN.appex */,
 			);
 			name = Products;
@@ -652,9 +652,9 @@
 			productReference = 196917B02BD93F2800779CB7 /* Translate-plus VPN.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		1997653E2BCFE9ED00073DA6 /* Translate plus */ = {
+		1997653E2BCFE9ED00073DA6 /* Flux Trans & Orc Bingo！ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 199765582BCFE9EF00073DA6 /* Build configuration list for PBXNativeTarget "Translate plus" */;
+			buildConfigurationList = 199765582BCFE9EF00073DA6 /* Build configuration list for PBXNativeTarget "Flux Trans & Orc Bingo！" */;
 			buildPhases = (
 				668DB8F4106DE44BF488B9E4 /* [CP] Check Pods Manifest.lock */,
 				1997653B2BCFE9ED00073DA6 /* Sources */,
@@ -669,9 +669,9 @@
 			dependencies = (
 				196917B92BD93F2800779CB7 /* PBXTargetDependency */,
 			);
-			name = "Translate plus";
+			name = "Flux Trans & Orc Bingo！";
 			productName = "Translate plus";
-			productReference = 1997653F2BCFE9ED00073DA6 /* Translate plus.app */;
+			productReference = 1997653F2BCFE9ED00073DA6 /* Flux Trans & Orc Bingo！.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -705,7 +705,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1997653E2BCFE9ED00073DA6 /* Translate plus */,
+				1997653E2BCFE9ED00073DA6 /* Flux Trans & Orc Bingo！ */,
 				196917AF2BD93F2800779CB7 /* Translate-plus VPN */,
 			);
 		};
@@ -1098,6 +1098,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Translate plus/AppPch/TSPPrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Translate plus/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Flux Trans & Orc Bingo！";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera permissions to recognize text.";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please allow access to your activity tracking to provide personalized push services and reduce interference caused by irrelevant services.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1136,6 +1137,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Translate plus/AppPch/TSPPrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Translate plus/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Flux Trans & Orc Bingo！";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera permissions to recognize text.";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please allow access to your activity tracking to provide personalized push services and reduce interference caused by irrelevant services.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1180,7 +1182,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		199765582BCFE9EF00073DA6 /* Build configuration list for PBXNativeTarget "Translate plus" */ = {
+		199765582BCFE9EF00073DA6 /* Build configuration list for PBXNativeTarget "Flux Trans & Orc Bingo！" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				199765592BCFE9EF00073DA6 /* Debug */,
